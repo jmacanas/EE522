@@ -96,7 +96,6 @@ int main(int argc, char **argv)
         bcm2835_delay(500);
         
         // turn it off
-        bcm2835_gpio_write(PIN, LOW);
         bcm2835_gpio_write(PIN0, LOW);
         bcm2835_gpio_write(PIN1, LOW);
         bcm2835_gpio_write(PIN2, LOW);
